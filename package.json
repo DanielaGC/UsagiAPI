@@ -1,0 +1,22 @@
+{
+  "name": "usagiapi",
+  "version": "1.0.0",
+  "description": "Wrapper api of gochiusa bots from Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielaGC/UsagiAPI.git"
+  },
+  "author": "DanielaGC_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielaGC/UsagiAPI/issues"
+  },
+  "homepage": "https://github.com/DanielaGC/UsagiAPI#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
