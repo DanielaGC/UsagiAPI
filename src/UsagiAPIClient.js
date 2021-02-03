@@ -7,31 +7,31 @@ module.exports = class UsagiAPIClient {
 
     async dance() {
         const res = await axios.get(`${this.url}/dance`)
-        return res.data
+        return res.data.url
     }
 
     async feed() {
         const res = await axios.get(`${this.url}/feed`)
-        return res.data
+        return res.data.url
     }
 
     async hug() {
         const res = await axios.get(`${this.url}/hug`)
-        return res.data
+        return res.data.url
     }
 
     async kiss() {
         const res = await axios.get(`${this.url}/kiss`)
-        return res.data
+        return res.data.url
     }
 
     async slap() {
         const res = await axios.get(`${this.url}/slap`)
-        return res.data
+        return res.data.url
     }
 
     async tickle() {
         const res = await axios.get(`${this.url}/tickle`)
-        return res.data
+        return res.data.url
     }
 }

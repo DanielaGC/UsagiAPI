@@ -5,9 +5,9 @@
 
 ```js
 const { UsagiAPI } = require('usagiapi')
-const Usagi = new UsagiAPI()
+const usagi = new UsagiAPI()
 
-Usagi.kiss().then(action => {
-	console.log(action.url)
+usagi.kiss().then(action => {
+	console.log(action)
 })
 ```
