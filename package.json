@@ -1,6 +1,6 @@
 {
   "name": "usagiapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrapper api of gochiusa bots from Discord",
   "main": "index.js",
   "scripts": {
