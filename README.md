@@ -15,7 +15,7 @@ usagi.kiss().then(action => {
 
 | Function | Description |
 | -------- | ----------- |
-| `dance` | Gets a URL of a dance gif
+| `dance` | Get a URL of a dance gif
 | `feed` | Get a URL of a feeding gif |
 | `hug`  | Get a URL of a hug gif |
 | `kiss` | Get a URL of a kiss gif |
