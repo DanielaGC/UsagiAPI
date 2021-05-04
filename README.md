@@ -4,16 +4,17 @@
 #### How to use
 
 ```js
-const { UsagiAPI } = require('usagiapi')
-const usagi = new UsagiAPI()
+const { UsagiAPI } = require("usagiapi");
+const usagi = new UsagiAPI();
 
-usagi.kiss().then(action => {
-	console.log(action)
-})
+usagi.get({ type: "Request Type" }).then(action => {
+	console.log(action);
+});
+
 ```
-### All functions 
+### All Request Types
 
-| Function | Description |
+| Type | Description |
 | -------- | ----------- |
 | `dance` | Get a URL of a dance gif
 | `feed` | Get a URL of a feeding gif |
