@@ -1,7 +1,7 @@
 
 declare module 'usagiapi' {
     export class UsagiAPIClient {
-        url: 'https://usagiapi.danielagc.repl.co/api/'
+        url: string;
         async dance(): Promise<string>;
         async feed(): Promise<string>;
         async hug(): Promise<string>;
