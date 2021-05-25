@@ -5,43 +5,40 @@ module.exports = class UsagiAPIClient {
     this.url = 'https://usagiapi.danielagc.repl.co/api/'
   }
 
-  async dance() {
-    const res = await axios.get(`${this.url}/dance`)
+  async _request(routerName) {
+    const res = await axios.get(`${this.url}/${routerName}`)
     return res.data.url
   }
 
-  async feed() {
-    const res = await axios.get(`${this.url}/feed`)
-    return res.data.url
+  dance() {
+    return this._request('dance');
   }
 
-  async hug() {
-    const res = await axios.get(`${this.url}/hug`)
-    return res.data.url
+  feed() {
+    return this._request('feed');
   }
 
-  async kiss() {
-    const res = await axios.get(`${this.url}/kiss`)
-    return res.data.url
+ hug() {
+    return this._request('hug');
   }
 
-  async pat() {
-    const res = await axios.get(`${this.url}/pat`)
-    return res.data.url
+ kiss() {
+    return this._request('kiss');
   }
 
-  async poke() {
-    const res = await axios.get(`${this.url}/poke`)
-    return res.data.url
+ pat() {
+    return this._request('pat');
   }
 
-  async slap() {
-    const res = await axios.get(`${this.url}/slap`)
-    return res.data.url
+ poke() {
+    return this._request('poke');
   }
 
-  async tickle() {
-    const res = await axios.get(`${this.url}/tickle`)
-    return res.data.url
+ slap() {
+    return this._request('slap');
+  }
+
+ tickle() {
+    return this._request('tickle');
   }
 }
