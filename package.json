@@ -1,7 +1,7 @@
 {
   "name": "usagiapi",
   "version": "1.0.3",
-  "description": "Wrapper api of gochiusa bots from Discord",
+  "description": "An official wrraper of usagi-rest-api, used for Discord.",
   "main": "index.js",
   "typings": "./types/index.d.ts",
   "scripts": {
