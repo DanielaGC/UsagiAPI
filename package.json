@@ -1,6 +1,6 @@
 {
   "name": "usagiapi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An official wrraper of usagi-rest-api, used for Discord.",
   "main": "index.js",
   "typings": "./types/index.d.ts",
