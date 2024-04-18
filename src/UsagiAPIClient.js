@@ -2,7 +2,7 @@ const axios = require('axios')
 
 module.exports = class UsagiAPIClient {
   constructor() {
-    this.url = 'https://usagiapi.chinokafuu.moe/api/'
+    this.url = 'https://usagiapi.chinokafuu.moe/api'
   }
 
   async _request(routerName) {
